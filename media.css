@@ -1,0 +1,187 @@
+@media only screen and (max-width: 500px) {
+  .banner {
+    margin-top: 05px;
+  }
+  .banner .row {
+    display: flex;
+  }
+  .banner .row .row2 {
+    order: 1;
+  }
+  .banner .row .row1 {
+    order: 2;
+  }
+  .why {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    width: 90%;
+    padding: 20px;
+  }
+  .why1 {
+    padding: 10px;
+  }
+  .why1 .wb1-title {
+    width: 100%;
+    font-size: 15px;
+    letter-spacing: 01px;
+    margin-top: 03px;
+    margin-bottom: 3px;
+  }
+  .why1 .wb1-para {
+    font-size: 12px;
+  }
+  .fe-cont {
+    display: grid;
+    grid-template-columns: 80%;
+    row-gap: 30px;
+    justify-content: center;
+  }
+  .experience {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .experience .col-12 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .exp_number {
+    font-size: 35px;
+  }
+  .exp_text {
+    font-size: 14px;
+  }
+  .carousel-control-next-icon:after {
+    content: ">";
+    font-size: 35px;
+    color: black;
+  }
+  .carousel-control-prev-icon:after {
+    content: "<";
+    font-size: 35px;
+    color: black;
+  }
+  .testiName {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .textiPara {
+    font-size: 13px;
+    width: 80%;
+    margin-top: 10px;
+    margin: auto;
+  }
+  .vibe {
+    width: 95%;
+  }
+  .vibeB {
+    display: flex;
+  }
+  .vibe img {
+    width: 230px;
+  }
+  .vibe .row2 {
+    order: 1;
+  }
+  .vibe .row1 {
+    order: 2;
+    margin-top: 30px;
+  }
+  .footer .footerMenu {
+    margin-left: 0px;
+  }
+  .footerMenu {
+    margin-top: 35px;
+  }
+  .footer-contactus {
+    margin-top: 38px;
+  }
+  .footer .footerMenu {
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 913px) {
+  .banner .row {
+    display: flex;
+  }
+  .banner .row .row2 {
+    order: 1;
+  }
+  .banner .row .row1 {
+    order: 2;
+  }
+  .why {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+  }
+  .fe-cont {
+    display: grid;
+    grid-template-columns: 240px 240px;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+  }
+  .experience {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+  }
+  .experience .col-12 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .exp_number {
+    font-size: 35px;
+  }
+  .vibeB {
+    display: flex;
+  }
+  .vibe img {
+    width: 260px;
+  }
+  .vibe .row2 {
+    order: 1;
+  }
+  .vibe .row1 {
+    order: 2;
+    margin-top: 30px;
+  }
+  .footer .footerMenu {
+    margin-left: 0px;
+  }
+  .footerMenu {
+    margin-top: 35px;
+  }
+  .footer-contactus {
+    margin-top: 38px;
+  }
+  .footerMenu {
+    margin-top: 0px;
+  }
+  .footer-contactus {
+    margin-top: 0px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .bann-m-title {
+    font-size: 60px;
+  }
+  .whyus-title {
+    font-size: 50px;
+  }
+  .fe-cont {
+    column-gap: 40px;
+  }
+  .fe-cont {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    column-gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
