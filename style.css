@@ -13,7 +13,7 @@ body {
   color: black;
 }
 .navbar-nav a {
-  font-size: 18px;
+  font-size: 14px;
   color: white;
   margin-left: 10px;
   color: black;
@@ -341,4 +341,113 @@ body {
 }
 .footer-socialIcon i {
   margin-left: 05px;
+}
+.footerMenu a {
+  text-decoration: none;
+  color: white;
+}
+/* ------------------------------------------------------------------------------------ */
+/*---------------------------- CONTACT US PAGE BANNER ---------------------------------*/
+.Contact-banner {
+  height: 100px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.Contact-banner p {
+  margin-top: 60px;
+}
+
+/*-------------------------- Contact Form  -----------------------------------*/
+.contact-form {
+  margin-top: 50px;
+}
+.bk-event {
+  padding: 20px;
+  background-color: #ff3465;
+  border-radius: 10px;
+  color: white;
+}
+.bk-event .bk-event-title {
+  font-size: 20px;
+}
+.bk-event-number {
+  font-size: 25px;
+  margin-top: 15px;
+}
+.bk-event-m-f {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.contact-form-row {
+  display: flex;
+  align-items: center;
+}
+.online-con {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 455px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #ffe9c2;
+  border-radius: 10px;
+}
+.online-con img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-left: 40px;
+}
+.onlin-con-ti {
+  font-size: 20px;
+}
+.online-con-name {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.online-con-text {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.online-start-chat {
+  color: red;
+  color: blue;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.form {
+  padding: 20px;
+  background-color: rgba(235, 241, 250, 0.692);
+  border-radius: 10px;
+}
+.contact-form input {
+  width: 100%;
+  margin-top: 15px;
+  border: none;
+  padding: 10px;
+  border-radius: 05px;
+}
+.form textarea {
+  width: 100%;
+  margin-top: 20px;
+  height: 120px;
+  border-radius: 05px;
+  border: none;
+  padding: 05px;
+}
+.form input::placeholder,
+textarea::placeholder {
+  font-size: 13px;
+}
+.h-a-ques {
+  font-size: 25px;
+}
+.f-submit {
+  color: white;
+  background-color: rgb(23, 72, 179);
 }

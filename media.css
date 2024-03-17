@@ -103,6 +103,17 @@
   .footer .footerMenu {
     margin-left: 0px;
   }
+  .online-con {
+    width: 100%;
+  }
+  .form {
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .online-con-phot img {
+    margin-left: 10px;
+  }
 }
 @media only screen and (min-width: 500px) and (max-width: 913px) {
   .banner .row {
@@ -166,6 +177,12 @@
   .footer-contactus {
     margin-top: 0px;
   }
+  .online-con {
+    width: 100%;
+  }
+  .form {
+    margin-top: 40px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .bann-m-title {
@@ -183,5 +200,8 @@
     column-gap: 25px;
     justify-content: center;
     margin-top: 40px;
+  }
+  .online-con {
+    width: 100%;
   }
 }
